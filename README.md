@@ -5,7 +5,7 @@
 # مسارات
 
 -مجلد /OverWrite-Windows-MBR/asm
-\
+
 "يحتوي على ملفات ال boot الذي يتم وضعه بدلا من الboot الخاص بالويندوز"
 
 -ملف OverWrite-Windows-MBR/asm/bootloader/boot.asm
@@ -43,7 +43,7 @@
 # متطلبات
 
 -برنامج Visual Studio
-\
+
 البيئة التطويرية
 
 -برنامج nasm 

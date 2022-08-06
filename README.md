@@ -3,7 +3,9 @@
 يقوم بكتابة boot مبرمج ليطلب من الضحيه شراء وادخال مفتاح ليستطيع الدخول مجددا لنظام ويندوز!
 \
 # مسارات
+
 - مجلد OverWrite-Windows-MBR/asm
+\
 "يحتوي على ملفات ال boot الذي يتم وضعه بدلا من الboot الخاص بالويندوز"
 
 - ملف OverWrite-Windows-MBR/asm/bootloader/boot.asm

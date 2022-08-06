@@ -14,7 +14,7 @@ jmp KERNEL_ADDRESS
 DiskRead:
 	mov ah,0x02 ; <== read disk
 	mov bx, KERNEL_ADDRESS ; The address that we need it in the disk
-	mov al, 5 ; Read for about 2000 bytes or / 2 sectors
+	mov al, 2 ; Read for about 2000 bytes or / 2 sectors
 	mov dl, [DISK] ; Disk number
 
 

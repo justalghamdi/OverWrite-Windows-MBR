@@ -42,7 +42,7 @@
 
 # متطلبات
 
-- برنامج Visual Studio
+-برنامج Visual Studio
 \
 البيئة التطويرية
 

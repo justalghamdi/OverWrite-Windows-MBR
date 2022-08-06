@@ -46,10 +46,10 @@
 \
 البيئة التطويرية
 
-- برنامج nasm 
+-برنامج nasm 
 
 يستعمل لتجميع ملفات الboot يمكنك تحميله من <a href="https://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D">هنا</a>
 
-- برنامج Bochs
+-برنامج Bochs
 
 يستعمل لتشغيل و معاينة ملف ال boot.flp يمكنك تحميله من <a href="https://sourceforge.net/projects/bochs/">هنا</a>

